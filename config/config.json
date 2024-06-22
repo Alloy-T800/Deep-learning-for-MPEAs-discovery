@@ -1,0 +1,26 @@
+{
+    "input_size": 30,
+    "attention_hidden_units": 60,
+    "lr": 0.0005,
+    "dropout_rate_feature_extra": 0.3,
+    "dropout_rate_integrated_unit": 0.1,
+    "epochs": 1000,
+    "num_feature_extra_units": 150,
+    "num_hidden_layers_feature_extra": 1,
+    "hidden_units_feature_extra": 30,
+    "num_hidden_layers_integrated_unit": 3,
+    "hidden_units_integrated_unit": 50,
+    "output_features_feature_extra": 12,
+
+
+    "population_size" : 100,
+    "n_generations": 100,
+
+    "X_scaler_path": "iterations_X_scaler.pkl",
+    "y_scaler_path": "iterations_y_scaler.pkl",
+
+    "GAN_generator.pth": "GAN_generator.pth",
+    "GAN_discriminator.pth": "GAN_discriminator.pth",
+
+    "moga_5_results": "moga_results"
+}

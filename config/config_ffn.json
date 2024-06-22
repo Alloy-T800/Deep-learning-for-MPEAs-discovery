@@ -1,0 +1,13 @@
+{
+    "input_size": 30,
+    "lr": 0.0005,
+    "dropout_rate_feature_extra": 0.3,
+    "dropout_rate_integrated_unit": 0.1,
+    "epochs": 1000,
+    "num_feature_extra_units": 150,
+    "num_hidden_layers_feature_extra": 1,
+    "hidden_units_feature_extra": 30,
+    "num_hidden_layers_integrated_unit": 3,
+    "hidden_units_integrated_unit": 50,
+    "output_features_feature_extra": 12
+}
